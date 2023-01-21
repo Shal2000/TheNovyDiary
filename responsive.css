@@ -1,0 +1,81 @@
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) {
+  .searchbox {
+    padding-left: 0px;
+  }
+} */
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .searchbox form i {
+    bottom: 175px;
+  }
+
+  .about-img .about-img3 {
+    position: absolute;
+    left: 1%;
+    top: 13%;
+  }
+
+  .about-img .about-img2 {
+    position: absolute;
+    left: 58%;
+    top: 21%;
+  }
+
+  img.about-img1.img-fluid {
+    width: 44%;
+  }
+
+  img.about-img2.img-fluid {
+    width: 37%;
+  }
+
+  img.about-img3.img-fluid {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .heading1 .row .logo h1 {
+    font-size: 35px;
+  }
+  .greet .greeting .greeting-title h3 {
+    font-size: 20px;
+  }
+
+  .greet .greeting .greeting-message p {
+    padding-top: 55px;
+    font-size: 14px;
+  }
+
+  .greet .greeting .greeting-message strong {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .col-sm-6 .blog-post p {
+    font-size: 13px;
+  }
+
+  .paragraph-side .container .about-paragraph .about-para {
+    font-size: 16px;
+  }
+
+  .paragraph-side .container .about-paragraph .about-para2 {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .paragraph-side .container .about-paragraph .about-para1 {
+    font-size: 13px;
+    color: #354f52;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .footer2 .logo h1 {
+    font-size: 30px;
+  }
+}
